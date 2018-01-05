@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<item>
+## View 事件
     http://blog.csdn.net/windskier/article/details/6966264
     http://blog.csdn.net/android_jiangjun/article/details/45798221
     http://blog.csdn.net/innost/article/details/47660193
@@ -33,4 +32,3 @@
     {ViewGroup.onTouchEvent()}->只进行第一次判断之后下次不会调用ViewGroup.onInterceptTouchEvent(),下次而是直接调用ViewGroup.onTouchEvent()
     if(ViewGroup.onTouchEvent()==true ){if(View.onTouchEvent()==true and action == ACTION_DOWN) {if(某一刻
     ViewGroup.onInterceptTouchEvent()==true)那么下次子View就会收到一个ACTION_CANCEL} }
-</item>

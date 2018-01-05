@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<item>
-    <title>内存泄露</title>
-    * 1. 不要使用非静态内部类; 如果要使用内部类,一定要静态化
-    * 2. 外部类如果存储了静态化的activity或者上下文或者内部类callback,退出前一定要清空强引用或者直接使用弱引用;
-    **** 外部类如果存在handler等生命周期长于activity的类,也必须清空引用或者直接使用弱引用;
-</item>

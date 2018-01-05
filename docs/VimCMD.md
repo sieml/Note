@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<item>
+## Vim CL
     http://blog.csdn.net/niushuai666/article/details/7275406
     http://www.cnblogs.com/softwaretesting/archive/2011/07/12/2104435.html
 
@@ -40,5 +39,3 @@
 
     :!command 执行shell命令
     :help or F1 显示整个帮助
-
-</item>

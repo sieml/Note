@@ -1,0 +1,20 @@
+## 发布Lib
+1. 发布的配置信息:  
+publish {
+    userOrg = 'hyman'//bintray.com用户名
+    groupId = 'com.hyman'//jcenter上的路径
+    artifactId = 'basetools'//项目名称
+    publishVersion = '1.0.0'//版本号
+    desc = 'Oh hi, this is a nice description for a project, right?'//描述，不重要
+    website = 'https://github.com/hyman/basetools'//网站，不重要
+}
+
+
+2. 格式化/配置jar:  
+ http://blog.adisonhyh.com/2016/08/27/buildJar%E2%80%94-%E9%80%9A%E7%94%A8%E7%9A%84Android-studio%E6%89%93%E5%8C%85jar-gradle%E6%8F%92%E4%BB%B6/
+
+3. 使用命令上传到jCenter:  
+./gradlew clean build bintrayUpload
+-PbintrayUser=hyman
+-PbintrayKey=xxxxxxxxxxxxxxxxxxxxxx
+-PdryRun=false

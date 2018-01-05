@@ -1,12 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<item>
-    <title>MVP概念</title>
+## MVP概念
     Model - the data layer. Responsible for handling the business logic and communication with the
     network and database layers.
     View - the UI layer. Displays the data and notifies the Presenter about user actions.
     Presenter - retrieves the data from the Model, applies the UI logic and manages the state of the
     View, decides what to display and reacts to user input notifications from the View.
-    <title>Fragment与Activity回调通信</title>
+## Fragment与Activity回调通信
     fragment implements callback
     activity: getFragment.(Fragment)callback.update();
-</item>

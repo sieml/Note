@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<item>
-    <title>apk签名(即为整个应用)</title>
+## apk签名(即为整个应用)
     http://m.blog.csdn.net/article/details?id=52241715
 
     http://blog.csdn.net/kickxxx/article/details/18252881
@@ -22,4 +20,3 @@
     p12文件是一种keystore，因此-keystore .p12
     export出来的cert需要重定向（>)到比如output.cert的文件中
     由于Windows不自带md5sum命令，所以需要第三方工具，WinMD5是个不错的GUI工具。MacOS里面的话可以直接使用命令md5。
-</item>

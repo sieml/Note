@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<item>
+## Image Helper Tool:
+
+/**Java  
+
     package com.lee.myapplication;
 
     import android.graphics.Bitmap;
@@ -255,5 +257,4 @@
     }
 
     }
-
-</item>
+**/    
